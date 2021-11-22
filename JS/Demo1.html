@@ -1,0 +1,193 @@
+
+<!---
+<script>
+    let obj = {
+        "key1":"value1",
+        "key2":"value2",
+        "key3":"value3"
+
+    }
+
+    console.log(obj.key1,obj.key2,obj.key3);
+</script>
+
+
+
+
+
+
+ <script>
+      let obj1 = {
+          "sub_one":"Angular12",
+          "sub_two":"Reactjs",
+          "sub_three":"Nodejs"
+      }
+
+      console.log(obj1.sub_one,obj1.sub_two,obj1.sub_three);
+ </script>
+
+
+
+
+ <script>
+     let obj2 = {
+         "sub_one":"angular",
+         "sub_one":"javascript",
+         "sub_one":"java"
+     }
+
+     console.log(obj2.sub_one);        //java   // when we pass the duplicate key data then it should be a overriding
+ </script>
+
+
+<script>
+    let obj3 = {
+        "h_1":"hello",
+        "h_2":"hello",
+        "h_3":"hello"
+    }
+
+    console.log(obj3.h_1,obj3.h_2,obj3.h_3);    //hello hello hello 
+
+</script>
+
+
+
+  <script>
+      let obj4 = {
+          sub_one:"JAVA",
+          sub_two:"ADVJAVA",
+          sub_three:"SPRING"
+      }
+
+      console.log([obj4.sub_one,obj4.sub_two,obj4.sub_three])
+  </script>
+
+
+<script>
+    let obj5 = {
+        123:"ABC",
+        456:"DEF",
+        789:"GHI",
+        101112:"JKL"
+    }
+
+    console.log(obj5[123],
+                obj5[456],
+                obj5[789],
+                obj5[101112]);               //ABC DEF GHI JKL
+
+</script>
+
+
+
+
+
+
+<script>
+    let arr1 = ["hello_1","hello_2"]
+     let arr2 = [...arr1]
+
+     console.log(arr2);
+</script>
+
+
+
+
+<script>
+    let sub1 = ["welcome1"]
+    let sub2 = ["welcome2"]
+    let sub3 = ["welcome3"]
+
+    let sub4 = [...sub1,...sub2,...sub3]
+
+    console.log(sub4);
+</script>
+
+<script>
+    let var1 = [12345]
+    let var2 = [67890]
+    let var3 = [...var1,...var2]
+    console.log(var3)
+</script>
+
+
+
+
+<script>
+
+    let obj ={
+        "key":"value1",
+        "key":"value2",
+        "key":"value3"
+    }
+
+    for(let key in obj){
+        console.log(obj[key]);
+    }
+
+</script>
+
+
+   
+<script>
+
+    let obj1 ={
+        "sub_one" : "Angular13",
+        "sub_two" : "NodeJS",
+        "sub_three" : "MongoDB"
+    }
+
+    for(let key in obj1){
+        console.log(obj1[key]);
+    }
+
+</script>
+
+<script>
+    let obj0 = {"key1":"Angular13"};
+    let obj2 = {"key2" : "NodeJS"};
+    let obj3 = {"key3" : "MongoDB"};
+    let obj4 = {...obj0,...obj2,...obj3};
+    console.log(obj4);              //{key1: 'Angular13', key2: 'NodeJS', key3: 'MongoDB'}
+</script>
+
+<script>
+    let obj5 ={"s_1" :"java"};
+    let obj6 ={"s_2" :"js"};
+    let obj7 ={"s_3" :"advjava"};
+    let obj8 ={...obj5,...obj6,...obj7};
+    console.log(obj8);                        //{s_1: 'java', s_2: 'js', s_3: 'advjava'}
+</script>
+
+
+
+
+<script>
+    //deep cloning
+    let obj9 = {"key1":"Hello_1"};
+    let ditto = {...obj1};
+    obj9.key2 = "Hello_2";
+    ditto.key2 = "Hello_3";
+    console.log(obj9);                  //{key1: 'Hello_1', key2: 'Hello_2'}
+    console.log(ditto);                 //{key1: 'Hello_1', key2: 'Hello_3'}
+</script>
+--->
+
+
+
+
+ <script>
+   let obj1 = {"key1" : "HELLO_10"};
+   let obj2 = {...obj1};
+   obj1.key2 ="HELLO_11";
+
+   console.log(obj2);
+   console.log(obj1);
+
+   obj2.key2 ="HELLO_9"
+   console.log(obj2);
+   
+ </script>
+
+

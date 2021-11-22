@@ -1,0 +1,30 @@
+<style>
+    .parent{
+        display: inline-block;
+    }
+    img{
+        width:200px;
+        border:2px solid yellowgreen;
+        border-radius: 10px;
+        margin:10px;
+        padding:10px;
+        background-color: #000f00;
+    }
+</style>
+<script>
+   let arr = [{"name":"virat","rank":1,"image":"download.jpg"},
+               {"name":"rohit","rank":2,"image":"download1.jpg"},
+               {"name":"bumrah","rank":3,"image":"download2.jpg"},
+               {"name":"kl rahul","rank":4,"image":"download3.jpg"},
+               {"name":"hardik","rank":5,"image":"download4.jpg"},
+               {"name":"jadeja","rank":6,"image":"download5.jpg"},
+               {"name":"shami","rank":7,"image":"download6.jpg"}]
+
+    arr.forEach((element,index) => {
+         document.write(`
+           <div class='parent'>
+               <img src= ${element.image}>
+          </div>
+         `);
+    });
+</script>

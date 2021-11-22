@@ -1,0 +1,64 @@
+
+Typescript
+**********
+1) Typescript is the programming language.
+
+2) Typescript follows the OOPS.
+  
+   EX: 1) Inheritance
+       2) Abstraction
+       3) Encapsulation
+       4) Polymorphism
+
+ 3) Typescript is released by the Microsoft.
+
+ 4) Typescript is used to bulid the angular and react js and nodejs and vuejs applications..
+
+ 5) we will save the Typescript files .TS extension.
+
+ 6) VScode is Suggestable IDE to build the Typescript Applications
+
+ 7) VScode is given by the Microsoft.
+
+ 8) Browsers won't support for Typescript. so Inorder run the application we have to convert to Javascript then we can execute Easily.
+
+ 9) Conversion of Typescript equivalent to Javascript we can call Transpilation.
+
+ 10) tsc is the tool it is used to perform the Transpilation.
+
+ 11) tsc stands for Typescript compiler.
+
+ software Installation
+ *********************
+
+  > npm install -g Typescript
+
+  -> npm stands for node packaging manager
+
+  -> npm present in "node js"
+
+  -> -g stands for global Installation
+
+  -> to know the version tsc --version
+
+
+ Transpilation
+ *************
+
+ 1) tsc demo.ts 
+    
+     o/p:demo.js
+
+ 2) node demo.js
+     
+
+
+
+
+
+
+
+
+
+
+

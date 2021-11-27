@@ -83,5 +83,49 @@ CallbackRes(function () {
 var fun_five = function (arg1, arg2) {
     console.log(arg1, arg2);
 };
-fun_five("hello_1", 1000);
-fun_five("hellop", 1111);
+fun_five("hello_1", 1000); //hello_1 1000
+fun_five("hellop", 1111); //hellop 1111
+var fun_six = function () {
+    return "welcome to TYPESCRIPT";
+};
+console.log(fun_six()); //welcome to TYPESCRIPT
+var fun_seven = function () {
+    return "hello_1";
+};
+console.log(fun_seven()); //hello_1
+var fun_eight = function () { return console.log("hello_10"); };
+fun_eight(); //hello_10
+var fun_nine = function () { return console.log("hello_11"); };
+fun_nine(); //hello_11
+var fun_ten = function (arg1, arg2, arg3, arg4) { return console.log(arg1, arg2, arg3, arg4); };
+fun_ten("hello_1", "hello_2", "hello_3", "hello_4");
+//fun_ten() //Expected 4 arguments, but got 0     //hello_1 hello_2 hello_3 hello_4
+var fun_eleven = function (arg1, arg2) { return console.log(arg1, arg2); };
+fun_eleven(123, "hi"); //123 hi
+var networkcall1 = function (arg1, arg2) {
+    console.log(arg1(), arg2());
+};
+networkcall1(function () { return "hello_1"; }, function () { return "hello_2"; }); //hello_1 hello_2
+var networkcall3 = function (arg1, arg2) {
+    console.log(arg1(), arg2());
+};
+networkcall3(function () { return "welcome to"; }, function () { return "angular"; }); //welcome to angular
+//typeof
+console.log(typeof "angular"); //string
+console.log(toString.call("hi")); //[object String]
+console.log(typeof 123); //number
+console.log(toString.call(123)); //[object Number]
+console.log(typeof true); //boolean
+console.log(toString.call(false)); //[object Boolean]
+console.log(typeof undefined); //undefined
+console.log(toString.call(undefined)); //[object Undefined]
+console.log(typeof null); //object
+console.log(toString.call(null)); //[object Null]
+console.log(typeof []); //object
+console.log(toString.call([])); //[object Array]
+console.log(typeof {}); //object
+console.log(toString.call({})); //[object Object]
+console.log(typeof function fun_one() { }); //function
+console.log(toString.call(function fun_two() { })); //[object Function]
+console.log(typeof function fun_two() { });
+console.log(toString.call(function fun_two() { }));

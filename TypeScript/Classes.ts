@@ -216,3 +216,50 @@ console.log(objfive.obj3.sub_four);
 //welcome to typescript
 
 
+class class_polo{
+    fun_one():string{
+        return "hello_1"
+    }
+
+    fun_two():string{
+        return "hello_2"
+    }
+    fun_three():string{
+        return "hello_3"
+    }
+};
+
+let obj45:class_polo= new class_polo();
+console.log(obj45.fun_one(),obj45.fun_two(),obj45.fun_three());
+//hello_1 hello_2 hello_3
+
+
+class class_demo{
+   private var_one:string;
+
+   constructor(arg1:string){
+       this.var_one=arg1;
+   }
+     public fun_one():string{
+         return this.var_one;
+     }
+}
+let obj75:class_demo = new class_demo("hello");
+console.log(obj75.fun_one());    //hello
+
+
+
+class class_hello{
+    private var_two:string;
+
+    constructor(arg2:string){
+        this.var_two= arg2;
+    }
+    public fun_one():string{
+        return this.var_two;
+    }
+}
+let obj32:class_hello = new class_hello("welcome");
+console.log(obj32.fun_one());
+//welcome
+

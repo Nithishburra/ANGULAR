@@ -183,3 +183,46 @@ var objfive = new class_first(new class_second(), new class_third(), new class_f
 console.log(objfive.obj1.sub_one);
 console.log(objfive.obj2.sub_three);
 console.log(objfive.obj3.sub_four);
+//welcome to js
+//welcome to angular
+//welcome to typescript
+var class_polo = /** @class */ (function () {
+    function class_polo() {
+    }
+    class_polo.prototype.fun_one = function () {
+        return "hello_1";
+    };
+    class_polo.prototype.fun_two = function () {
+        return "hello_2";
+    };
+    class_polo.prototype.fun_three = function () {
+        return "hello_3";
+    };
+    return class_polo;
+}());
+;
+var obj45 = new class_polo();
+console.log(obj45.fun_one(), obj45.fun_two(), obj45.fun_three());
+//hello_1 hello_2 hello_3
+var class_demo = /** @class */ (function () {
+    function class_demo(arg1) {
+        this.var_one = arg1;
+    }
+    class_demo.prototype.fun_one = function () {
+        return this.var_one;
+    };
+    return class_demo;
+}());
+var obj75 = new class_demo("hello");
+console.log(obj75.fun_one()); //hello
+var class_hello = /** @class */ (function () {
+    function class_hello(arg2) {
+        this.var_two = arg2;
+    }
+    class_hello.prototype.fun_one = function () {
+        return this.var_two;
+    };
+    return class_hello;
+}());
+var obj32 = new class_hello("welcome");
+console.log(obj32.fun_one());

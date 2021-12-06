@@ -25,7 +25,6 @@ var class_one = /** @class */ (function () {
     class_one.var_one = "HELLO";
     return class_one;
 }());
-var obj = new class_one();
 console.log(class_one.fun_one(), class_one.var_one);
 //HI HELLO
 /*
@@ -74,3 +73,4 @@ var class_five = /** @class */ (function () {
     return class_five;
 }());
 console.log(class_five.fun_two().fun_three());
+//WELCOME TO ANGULAR

@@ -25,8 +25,6 @@ class class_one{
         return "HI"
     }
 }
-
-let obj:class_one = new class_one();
 console.log(class_one.fun_one(),class_one.var_one);
 //HI HELLO
 

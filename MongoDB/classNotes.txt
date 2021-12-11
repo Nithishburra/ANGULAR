@@ -1,0 +1,76 @@
+
+DATABASES
+*********
+
+1) databases are used to store the data permanently
+
+2) data bases are two types they are
+
+    1) SQL databases
+
+    2) NoSQL databases
+
+  SQL                                                               NoSQL
+  ******************************************************************************
+
+Ex.
+                   
+1) oracle                                                       MongoDB
+2) MySQL                                                        CassandraDB
+3) SQL server                                                   RabbitMQ
+
+Ex.
+
+databases                                                         databases
+
+tables                                                            collections
+
+records                                                           documents
+
+primary key                                                        -id
+
+*******************************************************************************
+
+
+ MongoDB
+**********
+
+1) MongoDB is the NoSQL database
+
+2) MongoDB is the support the JSON
+
+3) MongoDB  database is light weight database
+
+4) By default MongoDB is running  on the port no.27017
+
+5) by default MongoDB follows the "MongoDB" protocol
+
+
+we can use MongoDB in two ways
+
+1) local
+
+2) cloud
+
+- MongoDB Atlas helps to create the cloud environment
+
+
+
+creating the MongoDB Atlas Account
+***********************************
+
+username : admin
+
+password: admin123
+
+Cluster name : Angular-13
+
+database name : Ecommerce
+
+collection name :Products
+
+
+
+
+
+
